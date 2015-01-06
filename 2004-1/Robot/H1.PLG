@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: H1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ag-cabra\CONFIG~1\Temp\RSP1BC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/H1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\ag-cabra\CONFIG~1\Temp\RSP1BC.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+cc.cpp
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(12) : error C2065: 'MAX_FIL' : undeclared identifier
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(12) : error C2057: expected constant expression
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(12) : error C2466: cannot allocate an array of constant size 0
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(12) : error C2065: 'MAX_COL' : undeclared identifier
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(12) : error C2057: expected constant expression
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(12) : error C2466: cannot allocate an array of constant size 0
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(12) : error C2087: '<Unknown>' : missing subscript
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(16) : error C2065: 'printf' : undeclared identifier
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(20) : error C2065: 'scanf' : undeclared identifier
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(27) : error C2065: 've' : undeclared identifier
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(27) : error C2065: 'ho' : undeclared identifier
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(30) : error C2057: expected constant expression
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(30) : error C2466: cannot allocate an array of constant size 0
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(30) : error C2057: expected constant expression
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(30) : error C2466: cannot allocate an array of constant size 0
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(30) : error C2087: '<Unknown>' : missing subscript
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(42) : error C2057: expected constant expression
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(42) : error C2466: cannot allocate an array of constant size 0
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(42) : error C2057: expected constant expression
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(42) : error C2466: cannot allocate an array of constant size 0
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(42) : error C2087: '<Unknown>' : missing subscript
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(46) : error C2143: syntax error : missing ';' before ')'
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(52) : error C2143: syntax error : missing ';' before 'if'
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(52) : error C2143: syntax error : missing ';' before '{'
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(52) : error C2447: missing function header (old-style formal list?)
+C:\Documents and Settings\ag-cabra\Mis documentos\Robot\cc.cpp(56) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+cc.obj - 26 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
